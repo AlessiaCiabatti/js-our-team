@@ -1,6 +1,7 @@
 // 2
 // richiamare output
-const output = document.querySelector('.output');
+const outputTop = document.querySelector('.output-top');
+const outputBottom = document.querySelector('.output-bottom');
 
 // 1
 // Creare l’array di oggetti con le informazioni fornite
@@ -43,13 +44,37 @@ const teamMembers = [
   },
 ]
 
+
+// top
 // 2
 // ciclo for/of
 for (let member of teamMembers){
   console.log(member);
   // 2
   // all'interno del ciclo dobbiamo richiamare la col
-  output.innerHTML += `
+  outputTop.innerHTML += `
+  <div class="col mt-5">
+    <div class="card" style="width: 18rem;">
+      
+      <div class="card-body">
+        <img src="${member.image}" class="card-img-top" alt="...">
+        <h5 class="card-title text-center mb-0 mt-3">${member.fullName}</h5>
+        <p class="card-text text-center mb-3">${member.role}</p>
+      </div>
+    </div>
+  </div>
+  `
+}
+
+
+// bottom
+// 2
+// ciclo for/of
+for (let member of teamMembers){
+  console.log(member);
+  // 2
+  // all'interno del ciclo dobbiamo richiamare la col
+  outputBottom.innerHTML += `
   <div class="col mt-5">
     <div class="card" style="width: 18rem;">
       
