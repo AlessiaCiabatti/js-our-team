@@ -7,5 +7,5 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 1. Creare l’array di oggetti con le informazioni fornite.
 
 2. Stampare le stesse informazioni su DOM sotto forma di stringhe
-  - tealizzare elementi in HTML (card) che richiamo in js
+  - realizzare elementi in HTML (card) che richiamo in js
   - ciclo for/of cicliamo informazioni
