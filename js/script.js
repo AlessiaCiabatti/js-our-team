@@ -4,7 +4,6 @@ const output = document.querySelector('.output');
 
 // 1
 // Creare l’array di oggetti con le informazioni fornite
-lista
 const teamMembers = [
   {
     fullName: 'Wayne Barnett',
@@ -36,3 +35,18 @@ const teamMembers = [
     role: 'Graphic Designer',
   },
 ]
+
+for (let member of teamMembers){
+  console.log(member);
+  output.innerHTML += `
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      
+      <div class="card-body">
+        <h5 class="card-title">${member.fullName}</h5>
+        <p class="card-text">${member.role}</p>
+      </div>
+    </div>
+  </div>
+  `
+}
