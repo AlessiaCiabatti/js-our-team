@@ -10,3 +10,5 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
   - realizzare elementi in HTML (card) e output che richiamo in js
   - ciclo for/of cicliamo informazioni
     - all'interno del ciclo dobbiamo richiamare la col, stampiamo nella row e gli diamo un nome alla classe, in questo caso output
+
+3. aggiungi img alle card
