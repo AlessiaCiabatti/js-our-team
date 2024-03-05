@@ -50,13 +50,13 @@ for (let member of teamMembers){
   // 2
   // all'interno del ciclo dobbiamo richiamare la col
   output.innerHTML += `
-  <div class="col">
+  <div class="col mt-5">
     <div class="card" style="width: 18rem;">
       
       <div class="card-body">
         <img src="${member.image}" class="card-img-top" alt="...">
-        <h5 class="card-title">${member.fullName}</h5>
-        <p class="card-text">${member.role}</p>
+        <h5 class="card-title text-center mb-0 mt-3">${member.fullName}</h5>
+        <p class="card-text text-center mb-3">${member.role}</p>
       </div>
     </div>
   </div>
