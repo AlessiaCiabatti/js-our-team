@@ -12,3 +12,6 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
     - all'interno del ciclo dobbiamo richiamare la col, stampiamo nella row e gli diamo un nome alla classe, in questo caso output
 
 3. aggiungi img alle card
+
+
+<p align="center"><img src="img_project/team.png" width="800" alt="Laravel Logo"></p>
